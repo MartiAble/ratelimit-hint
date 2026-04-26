@@ -30,7 +30,7 @@
 - [x] Design public API and README outline.
 - [x] Implement package.
 - [x] Add tests.
-- [x] Add CI workflow.
+- [x] Prepare CI workflow (omitted from published repo due to GitHub token scope).
 - [x] Write license.
 - [x] Verify repository structure.
 - [x] List limitations and runtime assumptions.

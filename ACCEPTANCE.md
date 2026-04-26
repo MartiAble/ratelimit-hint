@@ -7,7 +7,6 @@
 - `src/ratelimit_hint/__init__.py`
 - `src/ratelimit_hint/core.py`
 - `tests/test_core.py`
-- `.github/workflows/ci.yml`
 - `docs_PLAN.md`
 - `docs_DESIGN.md`
 
@@ -19,7 +18,7 @@
 - Heuristics for `RateLimit-Reset` are intentionally generic and may not match every vendor-specific interpretation.
 - The library computes retry timing only; it does not perform sleeping, request replay, or transport integration.
 - Time skew between server and client can affect absolute timestamp-based headers.
-- CI workflow was prepared, but remote GitHub Actions execution was not observed during local development.
+- A GitHub Actions CI workflow was prepared during development, but the file was omitted from the published repository because the available GitHub token lacked `workflow` scope.
 
 ## Unverified runtime assumptions
 - Python 3.9–3.11 were not executed locally on this host; compatibility is based on syntax and standard-library usage.

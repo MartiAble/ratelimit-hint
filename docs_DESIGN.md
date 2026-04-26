@@ -25,7 +25,7 @@
 - `src/ratelimit_hint/__init__.py` — public exports and version.
 - `src/ratelimit_hint/core.py` — parsing logic and dataclass.
 - `tests/test_core.py` — unit coverage for supported header formats and boundary behavior.
-- `.github/workflows/ci.yml` — multi-version Python CI.
+- `.github/workflows/ci.yml` — planned multi-version Python CI (not published because the available GitHub token lacked `workflow` scope).
 
 ## Design choices
 - Header lookup is case-insensitive.

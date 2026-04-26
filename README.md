@@ -99,6 +99,9 @@ if hint:
 
 ## Testing
 
+The package was verified locally with editable install + `unittest`. A GitHub Actions workflow was also prepared during development, but it is not included in the published repository because the available GitHub token did not have `workflow` scope.
+
+
 ```bash
 python -m pip install -e .
 python -m unittest discover -s tests -v
